@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="312.871131">
+<testcase classname="Check the Login Functionality of chair Airlines" name="check the login with valid credentials" time="49.332122">
+<system-out><![CDATA[Given user clicks customer login from Homepage..............................passed
+When user enters the valid username.........................................passed
+When user enters the valid password.........................................passed
+And user clicks login button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check the Login Functionality of chair Airlines" name=": check the login with invalid credentials" time="37.779097">
+<system-out><![CDATA[Given user clicks customer login from Homepage..............................passed
+When user enters invalid "willsmith"........................................passed
+When user enters invalid_pass"will12345"....................................passed
+And user clicks the login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check the Login Functionality of chair Airlines" name=": check the login with invalid credentials 2" time="46.238742">
+<system-out><![CDATA[Given user clicks customer login from Homepage..............................passed
+When user enters invalid "".................................................passed
+When user enters invalid_pass"scary12345"...................................passed
+And user clicks the login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check the Login Functionality of chair Airlines" name=": check the login with invalid credentials 3" time="50.725048">
+<system-out><![CDATA[Given user clicks customer login from Homepage..............................passed
+When user enters invalid "scaryy"...........................................passed
+When user enters invalid_pass"".............................................passed
+And user clicks the login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check the Login Functionality of chair Airlines" name=": check the login with invalid credentials 4" time="77.559248">
+<system-out><![CDATA[Given user clicks customer login from Homepage..............................passed
+When user enters invalid "Avenger@gmail.com"................................passed
+When user enters invalid_pass"avengers".....................................passed
+And user clicks the login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the sign-up functionality of the chair Airlines" name="Check the sign up functionality with different types of datas" time="51.236874">
+<system-out><![CDATA[Given User need to be in home_page..........................................passed
+Given user clicks the customer login........................................passed
+Given user clicks signup from customer login................................passed
+When user enters the first name.............................................passed
+When user enters the last name..............................................passed
+When user enters the company name...........................................passed
+When user enters the street name............................................passed
+When user enters the city name..............................................passed
+When user selects the country...............................................passed
+When user enters the zip code...............................................passed
+When user enters the phone number...........................................passed
+When user enters the email..................................................passed
+When user enters the password...............................................passed
+When user re_enters the password............................................passed
+And user clicks the signup button...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
